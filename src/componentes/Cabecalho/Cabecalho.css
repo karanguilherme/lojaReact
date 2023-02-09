@@ -1,0 +1,46 @@
+.cabecalho {
+    display: grid;
+    align-items: center;
+    background-color: #145496;
+    padding: 20px 0;
+}
+
+.logo{
+    align-items: center;
+    display: contents;
+}
+.menu-flex a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu-flex li {
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 20px 0;
+}
+.menu-flex {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.cart {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.count {
+    height: 21px;
+    width: 21px;
+    background-color: #f9f6f7;
+    border-radius: 50px;
+    padding: 2px 6px;
+    position: relative;
+    top: -37px;
+    left: -10px;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+}

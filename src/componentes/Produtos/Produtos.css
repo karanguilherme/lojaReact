@@ -1,0 +1,67 @@
+.flex-item {
+    display: grid;
+    align-items: self-end;
+    min-height: 334px;
+}
+
+a {
+    color: #101010;
+    text-decoration: none;
+}
+a:hover {
+    color: #101010;
+    text-decoration: none;
+}
+
+.Lista-Produtos {
+    max-height: 380px;
+}
+
+.flex-item h2{
+    font-size: 14px;
+}
+
+.preco{
+    font-size: 20px;
+    color: #145496;
+    font-weight: bolder;
+}
+
+.headerProduto{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.headerProduto:after {
+    height: 3px;
+    background-color: #145496;
+    width: 52px;
+    display: block;
+    content: "";
+    margin: 6px auto;
+}
+
+
+.card{
+    border-radius: 0;
+    border: 1px solid #f9f6f6;
+    transition: ease-in-out .5s;
+}
+
+.card:hover{
+    border: 1px solid #eeeeee;
+    transition: ease-in-out .5s;
+    box-shadow: 1px 1px 20px -5px #999;
+
+}
+
+.botao {
+    padding: 10px 9px;
+    background-color: #8bc34a;
+    font-size: 13px;
+    color: #fff;
+}

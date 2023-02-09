@@ -1,0 +1,28 @@
+.rodape {
+    background-color: #145496;
+    color: #FFFFFF;
+    padding: 40px 0 0 0;
+}
+
+
+.rodape li{
+    list-style: none;
+}
+.rodape h2{
+    font-size: 20px;
+}
+.rodape ol, ul {
+    padding-left: 0;
+}
+.images-footer{
+    width: 150px;
+}
+
+.criadopor {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 11px;
+    padding: 20px 0;
+    background-color: #07396c;
+    display: grid;
+}

@@ -1,0 +1,56 @@
+.flex-item {
+    display: grid;
+    align-items: self-end;
+    min-height: 381px;
+}
+
+.Lista-Produtos {
+    max-height: 430px;
+}
+
+.box h2{
+    font-size: 14px;
+}
+
+.preco{
+    font-size: 20px;
+    color: #145496;
+    font-weight: bolder;
+}
+
+
+.card-body.box img {
+    max-width: 273px;
+}
+.card-body.box {
+    display: grid;
+    min-height: 414px;
+    justify-items: center;
+    margin: 20px 0;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: end;
+    padding: 0 0 32px 0;
+}
+.box{
+    border-radius: 0;
+    border: 1px solid #f9f6f6;
+    transition: ease-in-out .5s;
+}
+
+.box:hover{
+    border: 1px solid #eeeeee;
+    transition: ease-in-out .5s;
+    box-shadow: 1px 1px 20px -5px #999;
+
+}
+
+.botao {
+    padding: 10px 9px;
+    background-color: #8bc34a;
+    font-size: 13px;
+    color: #fff;
+    height: 42px;
+    width: 100%;
+    text-align: center;
+}
