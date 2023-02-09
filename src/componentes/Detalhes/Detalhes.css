@@ -1,0 +1,28 @@
+.title {
+    font-size: 20px;
+    text-align: justify;
+    color: #333;
+}
+
+
+.headerProduto {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.price {
+    font-size: 20px;
+    color: #145496;
+    font-weight: bolder;
+}
+
+.descricao {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 15px;
+    color: #333;
+}

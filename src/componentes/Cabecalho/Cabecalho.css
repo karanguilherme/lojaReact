@@ -44,3 +44,55 @@
     font-size: 12px;
     text-align: center;
 }
+
+.mobile{
+    position: unset;
+    background-color: transparent;
+    height: unset;
+    z-index: initial;
+    top: 0;
+    width: 79%
+
+}
+.close {
+    float: right;
+    margin: 20px 0;
+    display: none;
+}
+@media(max-width: 767px){
+    .active-m {
+        left: 0 !important;
+        transition: ease-in-out .3s;
+    }
+
+    .mobile{
+        display: block !important;
+        position: absolute;
+        background-color: #fff;
+        height: 100vh;
+        z-index: 2;
+        top: 0;
+        left: -221px;
+        width: 220px;
+        transition: ease-in-out .3s;
+    }
+    .menu-flex {
+        display: block;
+
+
+    }
+    .mobile a {
+        color: #333;
+    }
+    .rodape .text-center {
+        text-align: initial !important;
+    }
+    .rodape .text-end {
+        text-align: initial !important;
+    }
+    .close {
+        float: right;
+        margin: 20px 0;
+        display: block;
+    }
+}
